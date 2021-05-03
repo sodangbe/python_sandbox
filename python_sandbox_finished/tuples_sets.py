@@ -13,7 +13,7 @@ fruits2 = ('Apples',)
 print(fruits[1])
 
 # Can't change value
-fruits[0] = 'Pears'
+#fruits[0] = 'Pears'
 
 # Delete tuple
 del fruits2
@@ -43,6 +43,6 @@ fruits_set.add('Apples')
 fruits_set.clear()
 
 # Delete
-del fruits_set
+#del fruits_set
 
-print(fruits_set)
+#print(fruits_set)

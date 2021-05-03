@@ -18,9 +18,9 @@ today = date.today()
 timestamp = time()
 
 c = CamelCase()
-# print(c.hump('hello there world'))
+print(c.hump('hello there world'))
 
-email = 'test#test.com'
+email = 'test@test.com'
 if validate_email(email):
   print('Email is valid')
 else:
